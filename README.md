@@ -1,1 +1,1 @@
-# beta-game
+# beta.geme
