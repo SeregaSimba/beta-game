@@ -16,3 +16,21 @@ console.log(dog.toString());
 console.log(dog.name);
 console.log(dog.type);
 console.log((dog.name = "GAu GAu"));
+
+function fizzBuzz(n) {
+  const res = [];
+  for (let i = 1; i <= n; i += 1) {
+    if (n % 15 === 0) {
+      res.push("FizzBuzz");
+    } else if (n % 3 === 0) {
+      res.push("Fizz");
+    } else if (n % 5 === 0) {
+      res.push("Buzz");
+    } else {
+      res.push(i);
+    }
+  }
+  return res;
+}
+
+console.log(fizzBuzz(4));
